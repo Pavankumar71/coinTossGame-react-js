@@ -1,0 +1,34 @@
+.app-container {
+  display: flex;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.coin-toss-container {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .coin-toss-container {
+    max-width: 500px;
+    padding: 64px;
+  }
+}
+.heading {
+  text-align: center;
+  color: #a35200;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-bottom: 17px;
+  }
+}
